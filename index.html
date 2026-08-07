@@ -113,11 +113,9 @@
 .reveal-delay-4{transition-delay:.32s}
 
 .hero-copy .kicker,
-.hero-copy .hero-badge,
 .hero-copy h1,
 .hero-copy .script,
 .hero-copy > p,
-.hero-offer,
 .hero-actions,
 .hero-icons{
   opacity:0;
@@ -125,13 +123,11 @@
   animation:heroReveal .85s cubic-bezier(.22,1,.36,1) forwards;
 }
 .hero-copy .kicker{animation-delay:.05s}
-.hero-copy .hero-badge{animation-delay:.10s}
-.hero-copy h1{animation-delay:.18s}
+.hero-copy h1{animation-delay:.16s}
 .hero-copy .script{animation-delay:.28s}
-.hero-copy > p{animation-delay:.42s}
-.hero-offer{animation-delay:.50s}
-.hero-actions{animation-delay:.60s}
-.hero-icons{animation-delay:.72s}
+.hero-copy > p{animation-delay:.40s}
+.hero-actions{animation-delay:.52s}
+.hero-icons{animation-delay:.66s}
 
 @keyframes heroReveal{
   to{opacity:1;transform:translateY(0)}
@@ -201,11 +197,9 @@
     transform:none !important;
   }
   .hero-copy .kicker,
-  .hero-copy .hero-badge,
   .hero-copy h1,
   .hero-copy .script,
   .hero-copy > p,
-  .hero-offer,
   .hero-actions,
   .hero-icons{
     opacity:1 !important;
@@ -219,9 +213,9 @@
 <body>
   <nav class="nav">
     <div class="wrap nav-inner">
-      <a class="brand" href="./"><span class="brand-mark"><i></i></span>ALBEN SNOW</a>
+      <a class="brand" href="#home"><span class="brand-mark"><i></i></span>ALBEN SNOW</a>
       <div class="nav-links">
-        <a href="#about">教練介紹</a><a href="#plans">課程方案</a><a href="#guide">滑雪指南</a><a href="#gallery">作品集</a><a href="#faq">FAQ</a><a href="#booking">聯絡我</a>
+        <a href="#about">教練介紹</a><a href="#plans">課程方案</a><a href="#gallery">作品集</a><a href="#faq">FAQ</a><a href="#booking">聯絡我</a>
       </div>
       <a class="btn btn-primary" href="#booking">立即預約</a>
     </div>
@@ -231,19 +225,12 @@
     <div class="wrap">
       <div class="hero-copy">
         <div class="kicker">YUZAWA SNOWBOARD LESSON</div>
-        <div class="hero-badge">2026–27 雪季・開放預約</div>
         <h1>LEARN<br>SNOWBOARD.</h1>
         <div class="script">Create Memories.</div>
         <p>日本湯澤中文單板滑雪教學｜第一次滑雪也能安心上手</p>
-        <div class="hero-offer" aria-label="課程快速資訊">
-          <div class="offer-item"><small>Private Lesson</small><b>NT$15,000</b></div>
-          <div class="offer-item"><small>Group Size</small><b>1–3 人</b></div>
-          <div class="offer-item"><small>Duration</small><b>6 小時</b></div>
-          <div class="offer-item"><small>Language</small><b>全程中文</b></div>
-        </div>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#booking">立即預約</a>
-          <a class="btn btn-ghost" href="#plans">查看完整課程</a>
+          <a class="btn btn-primary" href="#booking">詢問課程檔期</a>
+          <a class="btn btn-ghost" href="#plans">查看課程費用</a>
         </div>
         <div class="hero-icons">
           <div class="hero-icon"><div class="circle">🏔️</div><b>NZSIA & SBINZ</b><span>國際證照教練</span></div>
@@ -307,23 +294,6 @@
     </div>
   </section>
 
-  
-  <section class="audience" id="audience">
-    <div class="wrap">
-      <div class="section-title">
-        <h2>這堂課適合你嗎？</h2>
-        <p>不用有經驗，也不用擔心學得比別人慢。課程會依照每個人的程度與狀態調整。</p>
-      </div>
-      <div class="audience-grid">
-        <div class="audience-card"><div class="aicon">❄️</div><b>第一次滑雪</b><p>從穿裝備、移動、安全跌倒與煞車開始。</p></div>
-        <div class="audience-card"><div class="aicon">🛡️</div><b>害怕速度</b><p>先建立安全感與控制，再慢慢增加滑行距離。</p></div>
-        <div class="audience-card"><div class="aicon">↔️</div><b>卡在落葉飄</b><p>重新整理重心、視線與板刃控制，銜接轉彎。</p></div>
-        <div class="audience-card"><div class="aicon">👨‍👩‍👧</div><b>親子・朋友同行</b><p>小班安排，建議程度相近，學習更有品質。</p></div>
-        <div class="audience-card"><div class="aicon">💬</div><b>想用中文學</b><p>動作、雪場動線與練習方式都能清楚溝通。</p></div>
-      </div>
-    </div>
-  </section>
-
   <section class="plans" id="plans">
     <div class="wrap">
       <div class="section-title">
@@ -372,43 +342,22 @@
   </section>
 
   
-<section class="booking-steps" id="steps">
-    <div class="wrap">
-      <div class="section-title">
-        <h2>預約流程</h2>
-        <p>四個步驟，輕鬆開始你的第一次日本滑雪。</p>
-      </div>
-      <div class="steps-grid">
-        <div class="step"><div class="step-number">01</div><h3>加入 LINE</h3><p>提供預計日期、人數、滑雪經驗與住宿地點。</p></div>
-        <div class="step"><div class="step-number">02</div><h3>討論課程</h3><p>依照程度、住宿位置、雪況與需求安排適合的雪場及課程。</p></div>
-        <div class="step"><div class="step-number">03</div><h3>雪場集合</h3><p>約定時間碰面，確認裝備與當天練習重點後開始上課。</p></div>
-        <div class="step"><div class="step-number">04</div><h3>留下美好回憶</h3><p>安心學習、享受雪地，課程中視情況協助拍攝滑行與雪地紀錄。</p></div>
-      </div>
-    </div>
-  </section>
+<section class="booking-steps">
+<div class="wrap">
+<div class="section-title">
+<h2>預約流程</h2>
+<p>四個步驟，輕鬆開始你的第一次日本滑雪。</p>
+</div>
+<div class="steps-grid">
+<div class="step"><div class="step-number">01</div><h3>加入 LINE</h3><p>提供日期、人數、程度與住宿地點。</p></div>
+<div class="step"><div class="step-number">02</div><h3>討論課程</h3><p>依照雪況與程度安排最適合的雪場及課程。</p></div>
+<div class="step"><div class="step-number">03</div><h3>雪場集合</h3><p>確認裝備與課程內容後開始教學。</p></div>
+<div class="step"><div class="step-number">04</div><h3>留下美好回憶</h3><p>安心學習，享受雪地，並留下珍貴的滑雪回憶。</p></div>
+</div>
+</div>
+</section>
 
-
-  <section class="guide" id="guide">
-    <div class="wrap">
-      <div class="guide-card">
-        <div class="guide-copy">
-          <div class="kicker">FIRST SNOWBOARD GUIDE</div>
-          <h3>第一次日本滑雪，<br>從準備開始就不用慌。</h3>
-          <p>我會陸續整理第一次滑雪最常遇到的問題：穿什麼、帶什麼、雪場怎麼選、租裝備要注意什麼，以及一天大概能學到哪裡。</p>
-          <div class="guide-topics">
-            <span>第一次滑雪準備</span>
-            <span>日本滑雪穿搭</span>
-            <span>湯澤新手雪場</span>
-            <span>裝備租借</span>
-          </div>
-          <a class="btn btn-primary" href="#faq">先看新手 FAQ →</a>
-        </div>
-        <div class="guide-photo" aria-label="日本滑雪新手指南"></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery">
+<section id="gallery">
     <div class="wrap">
       <div class="section-title">
         <h2>雪地作品集</h2>
@@ -455,14 +404,14 @@
         <details><summary>費用包含雪票和裝備嗎？</summary><p>不包含。雪票、裝備租借、交通與餐食需另外自理；預約前可先私訊討論動線。</p></details>
       </div>
       <div class="book-card">
-        <h2>開始你的滑雪行程</h2>
-        <p>加入 LINE，告訴我預計日期、人數、程度與住宿地點，我會協助確認適合的課程安排。</p>
+        <h2>預約課程</h2>
+        <p>請提供預計日期、雪場或住宿地點、程度、人數，以及想學單板或雙板。</p>
         <div class="socials">
           <a class="btn line"
    href="https://line.me/R/ti/p/~ipe2230"
    target="_blank"
    rel="noopener">
-    💬 LINE 預約
+    LINE
 </a>
           <a class="btn ig" href="https://www.instagram.com/alben_outdoorlife/" target="_blank" rel="noopener">Instagram</a>
         </div>
@@ -472,28 +421,8 @@
     </div>
   </section>
 
-  
-  <section class="final-cta">
-    <div class="wrap">
-      <h2>第一次滑雪，<br>可以從安心開始。</h2>
-      <p>如果你還不確定雪場、住宿或自己的程度適合哪一種課程，先加入 LINE 聊聊就好。</p>
-      <div class="hero-actions" style="justify-content:center;margin:0">
-        <a class="btn btn-primary" href="https://line.me/R/ti/p/~ipe2230" target="_blank" rel="noopener">💬 LINE 詢問檔期</a>
-        <a class="btn btn-ghost" href="#plans">查看課程費用</a>
-      </div>
-    </div>
-  </section>
-
   <footer class="footer">
-    <div class="wrap">
-      <div><b>ALBEN SNOW</b><span>© 2026 Alben Snow. Japanese Snowboard Lessons in Yuzawa.</span></div>
-      <div class="footer-links">
-        <a href="#plans">課程方案</a>
-        <a href="#guide">滑雪指南</a>
-        <a href="https://www.instagram.com/alben_outdoorlife/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://line.me/R/ti/p/~ipe2230" target="_blank" rel="noopener">LINE</a>
-      </div>
-    </div>
+    <div class="wrap"><b>ALBEN SNOW</b><span>© 2026 Alben Snow. Japanese Snowboard Lessons in Yuzawa.</span></div>
   </footer>
 
 <!-- PREMIUM MOTION SCRIPT START -->
@@ -505,15 +434,12 @@ document.addEventListener('DOMContentLoaded', () => {
     ['.story-copy', '.story-photo'],
     ['.feature-grid .feature'],
     ['.about-copy', '.about-photo'],
-    ['.audience .section-title', '.audience-card'],
     ['.location .wrap'],
     ['.plans .section-title', '.plan-grid .plan', '.plans .note'],
     ['.booking-steps .section-title', '.booking-steps .step'],
-    ['.guide-card'],
     ['#gallery .section-title', '#gallery .shot'],
     ['.reviews .section-title', '.review-grid .review'],
-    ['.faq', '.book-card', '.booking-photo'],
-    ['.final-cta .wrap']
+    ['.faq', '.book-card', '.booking-photo']
   ];
 
   revealGroups.forEach(group => {
