@@ -346,6 +346,83 @@
 
 /* EARLY BIRD PROMO END */
 
+
+/* PRICE EMPHASIS START */
+.plan{
+  padding:34px;
+}
+.plan h3{
+  font-size:21px;
+  margin-bottom:14px;
+}
+.plan .price{
+  display:flex;
+  align-items:flex-end;
+  gap:6px;
+  margin:16px 0 10px;
+  font-size:clamp(48px,5vw,64px);
+  line-height:.95;
+  font-weight:900;
+  letter-spacing:-.055em;
+  color:var(--ink);
+}
+.plan .price small{
+  font-size:17px;
+  line-height:1.15;
+  margin:0 2px 6px 0;
+  color:var(--blue-dark);
+  font-weight:900;
+  letter-spacing:.01em;
+}
+.plan.featured{
+  position:relative;
+  overflow:hidden;
+}
+.plan.featured:before{
+  content:"人氣方案";
+  position:absolute;
+  top:18px;
+  right:18px;
+  padding:7px 10px;
+  border-radius:999px;
+  background:var(--blue);
+  color:#fff;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.06em;
+}
+.plan > p:not(.price):not(.price-text){
+  margin-top:8px;
+  font-size:15px;
+  font-weight:800;
+  color:#42505d;
+}
+.plan ul{
+  margin-top:20px;
+}
+.price-text{
+  font-size:36px;
+  margin:16px 0 10px;
+  line-height:1;
+}
+@media(max-width:560px){
+  .plan{
+    padding:28px 24px;
+  }
+  .plan .price{
+    font-size:50px;
+  }
+  .plan .price small{
+    font-size:15px;
+    margin-bottom:5px;
+  }
+  .plan.featured:before{
+    top:14px;
+    right:14px;
+  }
+}
+/* PRICE EMPHASIS END */
+
 </style>
 </head>
 <body>
@@ -467,7 +544,7 @@
 
         <div class="plan">
           <h3>團體小班全日課</h3>
-          <p class="price"><small>NT$</small>18,000</p>
+          <p class="price"><small>NT$</small>20,000</p>
           <p>4–6 人｜6 小時｜09:30–15:30</p>
           <ul>
             <li>最多 6 人，建議程度相近</li>
