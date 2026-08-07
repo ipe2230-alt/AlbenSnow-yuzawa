@@ -357,19 +357,19 @@
 }
 .plan .price{
   display:flex;
-  align-items:flex-end;
+  align-items:flex-start;
   gap:6px;
   margin:16px 0 10px;
-  font-size:clamp(48px,5vw,64px);
-  line-height:.95;
+  font-size:48px;
+  line-height:1;
   font-weight:900;
-  letter-spacing:-.055em;
+  letter-spacing:-.04em;
   color:var(--ink);
 }
 .plan .price small{
-  font-size:17px;
-  line-height:1.15;
-  margin:0 2px 6px 0;
+  font-size:16px;
+  line-height:1.1;
+  margin:8px 2px 0 0;
   color:var(--blue-dark);
   font-weight:900;
   letter-spacing:.01em;
@@ -401,20 +401,20 @@
   margin-top:20px;
 }
 .price-text{
-  font-size:36px;
+  font-size:32px;
   margin:16px 0 10px;
-  line-height:1;
+  line-height:1.05;
 }
 @media(max-width:560px){
   .plan{
     padding:28px 24px;
   }
   .plan .price{
-    font-size:50px;
+    font-size:44px;
   }
   .plan .price small{
     font-size:15px;
-    margin-bottom:5px;
+    margin-top:7px;
   }
   .plan.featured:before{
     top:14px;
@@ -544,7 +544,7 @@
 
         <div class="plan">
           <h3>團體小班全日課</h3>
-          <p class="price"><small>NT$</small>18,000</p>
+          <p class="price"><small>NT$</small>20,000</p>
           <p>4–6 人｜6 小時｜09:30–15:30</p>
           <ul>
             <li>最多 6 人，建議程度相近</li>
